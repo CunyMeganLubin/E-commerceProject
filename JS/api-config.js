@@ -7,8 +7,8 @@ const config = {
 	? "https://127.0.0.1:3000/api"
 	: "https://e-commerceproject-x4gr.onrender.com/api",
 }
-const product = `${config.apiBaseUrl}/product`	// Fetch from JS/cart-preview.js
-// const product = "products.json"		// Or use local products file
+// const product = `${config.apiBaseUrl}/product`	// Fetch from JS/cart-preview.js
+const product = "products.json"		// Or use local products file
 
 const PAYMENT_CONFIG = {
 	googlePay: {
